@@ -2,8 +2,18 @@ body{
   background: #6f42c1 ;
   color:#ecf0f1;
   margin: 20px;
+  padding: 10px;
+  background-image: url("trad.jpg");
 }
 .uno{
   float: left;
+  width: 300px;
+}
+.dos{
+  float: left;
+  width:200px;
+}
+.tres{
+  float: right;
   width: 300px;
 }
