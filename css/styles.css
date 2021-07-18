@@ -12,8 +12,19 @@ body{
 .dos{
   float: left;
   width:200px;
+  padding:10px;
+  color:  #212f3d ;
+  background-color:  #f7f9f9 ;
+  opacity: 0.6;
 }
 .tres{
   float: right;
   width: 300px;
+}
+h1{
+  text-align: center;
+}
+.button{
+  background-color: #212f3d;
+
 }
