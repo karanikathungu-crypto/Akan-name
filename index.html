@@ -24,16 +24,17 @@
     </p>
     <form id="dos">
       <div id = "date">
-        <label>Enter your birthdate:</label>
-        <label>Enter your birthday <em>example <strong>09</strong>/10/1999</em></label><input type="number" name ="number"><br>
-        <label>Enter your birthmonth<em>example 09/<strong>10</strong>/1999</em></label><input type="number" name ="number"><br>
-        <label>Enter your century <em> example 09/10/<strong>19</strong>99</em></label><input type="number" name ="number"><br>
-        <label>Enter your year<em>example 09/10/19<strong>99</strong></em></label><input type="number" name ="number"> <br>
-      <label>Select your gender:</label> <br>
-      <label>Male</label><input type="radio" value ="Male" name="gender">
-      <label>Female</label><input type="radio" value ="Female" name="gender">
+        <label class="quatro"><strong>Enter your birthdate:</strong></label><br>
+        <label class="quatro">Enter your birthday <em>example <strong>09</strong>/10/1999</em></label><br><input id = "day" type="number" name ="number"><br>
+        <label class="quatro">Enter your birthmonth <em>example 09/<strong>10</strong>/1999</em></label><br><input id ="month" type="number" name ="number"><br>
+        <label class="quatro">Enter your century <em> example 09/10/<strong>19</strong>99</em></label><br><input id = "century" type="number" name ="number"><br>
+        <label class="quatro">Enter your year <em>example 09/10/19<strong>99</strong></em></label><br><input id = "year" type="number" name ="number"> <br>
       </div>
-      <input class="buttonn" type="button" value="Submit">
+      <div>
+      <label>Select your gender:</label> <br>
+      <input type="name" name= "gender"><br>
+      </div><br>
+      <input class="buttonn" onclick="akanName()" type="button" value="Submit">
     </form>
     <script src="Javs/main.js"></script>
 
