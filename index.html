@@ -4,11 +4,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <title>Akan displayer</title>
-    <style>
-      body {
-        background-image: url('trad.jpg');
-      }
-      </style> 
   </head>
   <body>
     <header>
@@ -23,18 +18,18 @@
       flowing within.
     </p>
     <form id="dos">
-      <div id = "date">
+      <div>
         <label class="quatro"><strong>Enter your birthdate:</strong></label><br>
-        <label class="quatro">Enter your birthday <em>example <strong>09</strong>/10/1999</em></label><br><input id = "day" type="number" name ="number"><br>
-        <label class="quatro">Enter your birthmonth <em>example 09/<strong>10</strong>/1999</em></label><br><input id ="month" type="number" name ="number"><br>
-        <label class="quatro">Enter your century <em> example 09/10/<strong>19</strong>99</em></label><br><input id = "century" type="number" name ="number"><br>
-        <label class="quatro">Enter your year <em>example 09/10/19<strong>99</strong></em></label><br><input id = "year" type="number" name ="number"> <br>
+        <label class="quatro">Enter your birthday : <em>example <strong>09</strong>/10/1999</em></label><br><input id = "day" type="number" name ="number"><br>
+        <label class="quatro">Enter your birthmonth: <em>example 09/<strong>10</strong>/1999</em></label><br><input id ="month" type="number" name ="number"><br>
+        <label class="quatro">Enter your century:  <em>example 09/10/<strong>19</strong>99</em></label><br><input id = "century" type="number" name ="number"><br>
+        <label class="quatro">Enter your year:  <em>example 09/10/19<strong>99</strong></em></label><br><input id = "year" type="number" name ="number"> <br>
       </div>
       <div>
       <label>Select your gender:</label> <br>
-      <input type="name" name= "gender"><br>
+      <input id="gender" required type="text" name= "gender"><br>
       </div><br>
-      <input class="buttonn" onclick="akanName()" type="button" value="Submit">
+      <input class="buttonn"  type="submit" value="submit">
     </form>
     <script src="Javs/main.js"></script>
 
