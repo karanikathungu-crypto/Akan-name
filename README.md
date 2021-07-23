@@ -9,3 +9,5 @@ The project requires installation of vs code or any text editor after which one 
 The project uses html markup language, css and javascript.
 ### Link to the project to view
 https://karanikathungu-crypto.github.io/Akan-name/
+### License used
+MIT License
